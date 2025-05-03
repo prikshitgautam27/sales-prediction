@@ -46,28 +46,14 @@ Ensure you have the following libraries installed:
 
 bash
 pip install tensorflow pandas numpy matplotlib scikit-learn
-🔹 Running the Model
-1️⃣ Clone Repository:
-
-bash
-git clone https://github.com/YourGitHubUsername/Sales-Prediction-LSTM.git
-2️⃣ Navigate to Project Folder:
-
-bash
-cd Sales-Prediction-LSTM
-3️⃣ Run Training Script:
-
-bash
-python train_model.py
-4️⃣ Generate Predictions:
-
-bash
+ 
 python predict_sales.py
 📊 Model Evaluation
 🔹 Root Mean Squared Error (RMSE) Analysis:
 
 python
-from sklearn.metrics import mean_squared_error
+from sklearn.metrics
+import mean_squared_error
 import numpy as np
 
 rmse = np.sqrt(mean_squared_error(y_test, y_pred))
@@ -75,12 +61,15 @@ print(f"Model RMSE: {rmse:.2f}")
 ✅ Final RMSE: ~2.88 (showing high accuracy in predictions)
 
 🔮 Future Scope
-🚀 Enhancements that can be implemented: ✔ Hybrid AI Models – Combining LSTM with CNN or Transformers for advanced forecasting. ✔ External Trend Analysis – Incorporating Google Trends and market sentiment into predictions. ✔ Dynamic Pricing Integration – Using forecasts to optimize product prices automatically.
+🚀 Enhancements that can be implemented: 
+✔ Hybrid AI Models – Combining LSTM with CNN or Transformers for advanced forecasting. 
+✔ External Trend Analysis – Incorporating Google Trends and market sentiment into predictions.
+✔ Dynamic Pricing Integration – Using forecasts to optimize product prices automatically.
 
 📜 License
 This project is open-source under the MIT License. Feel free to contribute and improve forecasting performance!
 
 ✨ Contributions & Feedback
-Want to improve the model? Pull requests are welcome! For inquiries, reach out at YourEmail@domain.com
+Want to improve the model? Pull requests are welcome! For inquiries, reach out at prikshitgautam27@gmil.com
 
 📌 Star this repo if you find it useful! ⭐
